@@ -189,6 +189,15 @@ const AGGREGATED_SEARCH_CONFIG = {
     showSourceBadges: true    // 是否显示来源徽章
 };
 
+// 定义合并方法
+function extendAPISites(newSites) {
+    Object.assign(API_SITES, newSites);
+}
+
+// 暴露到全局
+window.API_SITES = API_SITES;
+window.extendAPISites = extendAPISites;
+
 // 抽象API请求配置
 const API_CONFIG = {
     search: {
