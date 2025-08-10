@@ -110,9 +110,9 @@ const API_SITES = {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
         name: 'iKun资源'
     },
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源1',
+    ymck: {
+        api: 'https://ymck.pro/api.php/provide/vod',
+        name: '影猫仓库',
         adult: true
     },
     // 下面是一些成人内容的API源，默认隐藏，使用本项目浏览黄色内容违背项目初衷
